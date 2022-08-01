@@ -20,7 +20,7 @@ demandés dans le sujet, tels que \ (le backslash) ou ; (le point-virgule).
 - [ ] Gérer les variables d’environnement  
 - [ ] Gérer $?  
   
-- [ ] Gérer ctrl-C, ctrl-D et ctrl-\  
+- [x] Gérer ctrl-C, ctrl-D et ctrl-\  
 	- [x] ctrl-C  
 	- [x] ctrl-D  
 	- [x] ctrl-\  
