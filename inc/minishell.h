@@ -57,7 +57,7 @@ void	builtin_env(t_dlst *p_list);
 void	builtin_echo(int option, char **built_in);
 void	builtin_unset(char **built_in, t_dlst *list);
 void	builtin_export(char **built_in, t_dlst *list);
-void	builtin_exit(void);
+void	builtin_exit(char *built_in);
 
 /*
 ** utils functions

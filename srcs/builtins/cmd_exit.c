@@ -6,14 +6,15 @@
 /*   By: abonte-l <abonte-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 18:05:21 by abonte-l          #+#    #+#             */
-/*   Updated: 2022/04/01 18:26:03 by abonte-l         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:43:53 by abonte-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/minishell.h"
 
-void	builtin_exit(void)
+void	builtin_exit(char *built_in)
 {
+	(void)built_in;
 	printf("exit\n");
 	exit(0);
 }
