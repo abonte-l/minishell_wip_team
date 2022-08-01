@@ -21,9 +21,9 @@ demandés dans le sujet, tels que \ (le backslash) ou ; (le point-virgule).
 - [ ] Gérer $?  
   
 - [ ] Gérer ctrl-C, ctrl-D et ctrl-\  
-	- [ ] ctrl-C  
+	- [x] ctrl-C  
 	- [x] ctrl-D  
-	- [ ] ctrl-\  
+	- [x] ctrl-\  
   
 - [x] les builtins suivantes
 	- [x] echo et l’option -n  
