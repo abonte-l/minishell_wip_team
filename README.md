@@ -35,3 +35,6 @@ demandés dans le sujet, tels que \ (le backslash) ou ; (le point-virgule).
 	- [x] unset sans aucune option  
 	- [x] env sans aucune option ni argument  
 	- [x] exit sans aucune option  
+  
+
+  les foirades viennent de ft_strtok  

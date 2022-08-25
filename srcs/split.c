@@ -6,7 +6,7 @@
 /*   By: abonte-l <abonte-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 09:10:47 by abonte-l          #+#    #+#             */
-/*   Updated: 2022/08/01 12:51:32 by abonte-l         ###   ########.fr       */
+/*   Updated: 2022/08/25 14:12:45 by abonte-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-char **split(char *raw_data, char *limit)
+char	**split(char *raw_data, char *limit)
 {
 	char	*ptr;
 	char	**cmd;
@@ -32,7 +32,7 @@ char **split(char *raw_data, char *limit)
 	cmd = NULL;
 	idx = 0;
 	ptr = ft_strtok(raw_data, limit);
-	while (ptr) 
+	while (ptr)
 	{
 		cmd = (char **)ft_realloc(cmd, ((idx + 1) * sizeof(char *)));
 		cmd[idx] = ft_strdup(ptr);
@@ -43,4 +43,3 @@ char **split(char *raw_data, char *limit)
 	cmd[idx] = NULL;
 	return (cmd);
 }
-
