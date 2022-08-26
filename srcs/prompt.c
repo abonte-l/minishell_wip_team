@@ -6,7 +6,7 @@
 /*   By: abonte-l <abonte-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/02 13:35:56 by abonte-l          #+#    #+#             */
-/*   Updated: 2022/08/25 14:17:56 by abonte-l         ###   ########.fr       */
+/*   Updated: 2022/08/26 17:29:01 by abonte-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ void	make_magic_loop(t_dlst *env_list, char **envp, char *buffer, char **cmd)
 		free_array(cmd);
 		free(dup_buffer);
 		dup_buffer = NULL;
-		buffer = readline("🐚minishell $> ");
+		buffer = readline("🐚 minishell $> ");
 	}
 }
 

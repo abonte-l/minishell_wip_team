@@ -6,7 +6,7 @@
 /*   By: abonte-l <abonte-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 15:32:50 by abonte-l          #+#    #+#             */
-/*   Updated: 2022/04/04 18:48:05 by abonte-l         ###   ########.fr       */
+/*   Updated: 2022/08/26 17:29:21 by abonte-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*trim_str(char *str, int i)
 {
-	char *new_str;
-	int j = 0, k = 0;
+	char	*new_str;
+	int	j = 0, k = 0;
 	
 	new_str = NULL;
 	j = (ft_strlen(str)) - i;
